@@ -189,8 +189,8 @@
 
                             <!-- Regexp patterns used to identify next version can optionally be adjusted //-->
                             <semanticMajorVersionPattern>^[Bb]reaking|^[Rr]elease</semanticMajorVersionPattern>
-                            <semanticMinorVersionPattern>[Ff]eat</semanticMinorVersionPattern>
-                            <semanticPatchVersionPattern>[Ff]ix</semanticPatchVersionPattern>
+                            <semanticMinorVersionPattern>^[Ff]eat</semanticMinorVersionPattern>
+                            <semanticPatchVersionPattern>^[Ff]ix</semanticPatchVersionPattern>
                         </configuration>
                     </execution>
                 </executions>
