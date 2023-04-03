@@ -8,7 +8,7 @@
     </parent>
     <groupId>ua.com.gfalcon</groupId>
     <artifactId>screener</artifactId>
-    <version>0.0.0</version>
+    <version>1.0.0</version>
     <name>screener</name>
     <description>screener</description>
     <properties>
