@@ -8,7 +8,7 @@
     </parent>
     <groupId>ua.com.gfalcon</groupId>
     <artifactId>screener</artifactId>
-    <version>1.0.0</version>
+    <version>0.1.0-SNAPSHOT</version>
     <name>screener</name>
     <description>screener</description>
     <properties>
@@ -19,6 +19,11 @@
         <testcontainers.version>1.17.6</testcontainers.version>
     </properties>
     <dependencies>
+        <dependency>
+            <groupId>se.bjurr.gitchangelog</groupId>
+            <artifactId>git-changelog-lib</artifactId>
+            <version>1.168.10</version>
+        </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
