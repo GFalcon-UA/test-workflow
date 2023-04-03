@@ -178,6 +178,16 @@
                 <version>1.96.1</version>
                 <executions>
                     <execution>
+                        <id>GenerateGitChangelogMinimal</id>
+                        <phase>generate-sources</phase>
+                        <goals>
+                            <goal>git-changelog</goal>
+                        </goals>
+                        <configuration>
+                            <file>CHANGELOG_minimal.md</file>
+                        </configuration>
+                    </execution>
+                    <execution>
                         <id>GenerateGitChangelog</id>
                         <phase>generate-sources</phase>
                         <goals>
